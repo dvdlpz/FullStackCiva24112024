@@ -23,10 +23,12 @@ A continuación, los comandos SQL utilizados para crear la base de datos y las t
 
 CREATE DATABASE buses;  
 USE buses;  
+
 CREATE TABLE Marca (  
     id INT AUTO_INCREMENT PRIMARY KEY,  
     nombre VARCHAR(50) NOT NULL  
     );  
+    
 CREATE TABLE Bus (  
     id INT AUTO_INCREMENT PRIMARY KEY,  
     numero_bus VARCHAR(20) NOT NULL,  
