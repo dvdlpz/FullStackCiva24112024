@@ -78,7 +78,7 @@ Verás una lista de buses con su información (ID, Número de bus, Placa, Caract
 Los datos se obtienen del backend que funciona en http://localhost:8080.
 
 ### Estructura del Proyecto
-Backend: Carpeta que contiene el proyecto Spring Boot (Java).
+Backend: Carpeta que contiene el proyecto Spring Boot (Java).  
 Frontend: Carpeta que contiene el proyecto React.js.
 
 ### Funcionalidades
