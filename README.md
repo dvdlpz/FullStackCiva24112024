@@ -22,10 +22,10 @@ Este proyecto consiste en una aplicación web para gestionar información sobre 
 A continuación, los comandos SQL utilizados para crear la base de datos y las tablas:
 
 1. **Crear la base de datos**:
-   CREATE DATABASE buses;
+
+CREATE DATABASE buses;
 
 USE buses;
-
 
 CREATE TABLE Marca (
     id INT AUTO_INCREMENT PRIMARY KEY,
