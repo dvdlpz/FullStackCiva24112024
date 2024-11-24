@@ -25,20 +25,20 @@ CREATE DATABASE buses;
 USE buses;  
 
 CREATE TABLE Marca (  
-    id INT AUTO_INCREMENT PRIMARY KEY,  
-    nombre VARCHAR(50) NOT NULL  
-    );  
+        id INT AUTO_INCREMENT PRIMARY KEY,  
+        nombre VARCHAR(50) NOT NULL  
+        );  
     
 CREATE TABLE Bus (  
-    id INT AUTO_INCREMENT PRIMARY KEY,  
-    numero_bus VARCHAR(20) NOT NULL,  
-    placa VARCHAR(10) NOT NULL,  
-    fecha_creacion DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,  
-    caracteristicas VARCHAR(255),  
-    activo TINYINT(1) NOT NULL,  
-    marca_id INT,  
-    FOREIGN KEY (marca_id) REFERENCES Marca(id)  
-    );
+        id INT AUTO_INCREMENT PRIMARY KEY,  
+        numero_bus VARCHAR(20) NOT NULL,  
+        placa VARCHAR(10) NOT NULL,  
+        fecha_creacion DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,  
+        caracteristicas VARCHAR(255),  
+        activo TINYINT(1) NOT NULL,  
+        marca_id INT,  
+        FOREIGN KEY (marca_id) REFERENCES Marca(id)  
+        );
 
 ## Requisitos
 
