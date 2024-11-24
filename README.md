@@ -16,15 +16,24 @@ Este proyecto consiste en una aplicación web para gestionar información sobre 
 
 ### Base de Datos
 - **MySQL**: La base de datos donde se guardan las tablas `Marca` y `Bus`.
-- Query utilizada:
+
+**Comandos SQL**
+
 A continuación, los comandos SQL utilizados para crear la base de datos y las tablas:
 
-CREATE DATABASE buses;
+1. **Crear la base de datos**:
+   CREATE DATABASE buses;
+
 USE buses;
+
+
 CREATE TABLE Marca (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nombre VARCHAR(50) NOT NULL
-    );
+);
+
+
+
 CREATE TABLE Bus (
     id INT AUTO_INCREMENT PRIMARY KEY,
     numero_bus VARCHAR(20) NOT NULL,
