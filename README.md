@@ -58,7 +58,7 @@ Los datos se obtienen del backend que funciona en http://localhost:8080.
 Backend: Carpeta que contiene el proyecto Spring Boot (Java).
 Frontend: Carpeta que contiene el proyecto React.js.
 
-Funcionalidades
+### Funcionalidades
 Mostrar la lista de buses: Se obtiene la información desde el backend y se muestra en una tabla.
 Ver detalles de cada bus: Al hacer clic en un bus, puedes ver su información detallada.
 Marca de Bus: Se muestra la marca correspondiente a cada bus gracias a la relación entre las tablas Bus y Marca.
